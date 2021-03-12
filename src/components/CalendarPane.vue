@@ -40,7 +40,7 @@ export default {
             'div',
             {
               key: i + 1,
-              class: 'vc-weekday',
+              class: ['vc-weekday', `weekday-position-${i + 1}`],
             },
             [wl],
           ),
@@ -128,7 +128,7 @@ export default {
 
 <style lang="postcss" scoped>
 .vc-pane {
-  min-width: 250px;
+  min-width: 200px;
 }
 
 .vc-header {
@@ -159,6 +159,7 @@ export default {
 
 .vc-weeks {
   display: grid;
+  display: -ms-grid;
   grid-template-columns: repeat(7, 1fr);
   position: relative;
   overflow: auto;

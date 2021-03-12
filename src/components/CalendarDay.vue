@@ -437,9 +437,12 @@ export default {
   position: relative;
   min-height: 32px;
   z-index: 1;
-  &.is-not-in-month * {
-    opacity: 0;
+  &.is-not-in-month {
     pointer-events: none;
+    & * {
+      opacity: 0;
+      pointer-events: none;
+    }
   }
 }
 

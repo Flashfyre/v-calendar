@@ -276,3 +276,51 @@
     border-color: var(--gray-700);
   }
 }
+
+.weekday-position-1 {
+  -ms-grid-column: 1;
+}
+
+.weekday-position-2 {
+  -ms-grid-column: 2;
+}
+
+.weekday-position-3 {
+  -ms-grid-column: 3;
+}
+
+.weekday-position-4 {
+  -ms-grid-column: 4;
+}
+
+.weekday-position-5 {
+  -ms-grid-column: 5;
+}
+
+.weekday-position-6 {
+  -ms-grid-column: 6;
+}
+
+.weekday-position-7 {
+  -ms-grid-column: 7;
+}
+
+.week-1 {
+  -ms-grid-row: 2;
+}
+
+.week-2 {
+  -ms-grid-row: 3;
+}
+
+.week-3 {
+  -ms-grid-row: 4;
+}
+
+.week-4 {
+  -ms-grid-row: 5;
+}
+
+.week-5 {
+  -ms-grid-row: 6;
+}

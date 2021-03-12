@@ -813,6 +813,7 @@ export default {
 
 .vc-pane-layout {
   display: grid;
+  display: -ms-grid;
 }
 
 .vc-arrow {

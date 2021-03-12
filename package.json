@@ -43,6 +43,7 @@
     "babel-core": "^7.0.0-0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^22.0.4",
+    "postcss-custom-properties": "^9.1.1",
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
@@ -57,7 +58,7 @@
   },
   "browserslist": [
     ">1%",
-    "not ie 11",
+    "ie 11",
     "not op_mini all"
   ],
   "homepage": "https://vcalendar.io",

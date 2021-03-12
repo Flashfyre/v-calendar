@@ -387,6 +387,7 @@ export default {
   outline: none;
   z-index: 10;
   box-shadow: var(--shadow-lg);
+  -ms-animation:none;
   &.direction-bottom {
     margin-top: var(--popover-vertical-content-offset);
   }
